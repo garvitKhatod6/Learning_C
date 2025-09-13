@@ -15,11 +15,11 @@ int main() {
         return 0;
     }
     discriminant = b * b - 4 * a * c;
+    root1 = (-b + sqrt(discriminant)) / (2 * a);
+    root2 = (-b - sqrt(discriminant)) / (2 * a);
 
     if (discriminant > 0) {
     
-        root1 = (-b + sqrt(discriminant)) / (2 * a);
-        root2 = (-b - sqrt(discriminant)) / (2 * a);
         printf("Roots are real and distinct.\n");
         printf("Root1 = %.2lf, Root2 = %.2lf\n", root1, root2);
     }
