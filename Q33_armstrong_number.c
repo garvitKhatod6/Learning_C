@@ -3,7 +3,7 @@
 
 
 #include <stdio.h>
-#include <math.h>  // for pow()
+#include <math.h>  
 
 int main() {
     int num, original, remainder, n = 0;

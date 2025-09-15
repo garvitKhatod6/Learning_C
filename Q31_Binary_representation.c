@@ -14,13 +14,13 @@ int main() {
         return 0;
     }
 
-    int n = num;  // keep copy for printing
+    int n = num;  
 
     while (num > 0) {
-        int bit = num % 2;        // get last bit
-        binary = binary + bit * place; // build binary as decimal digits
-        place *= 10;              // move to next place
-        num /= 2;                 // divide by 2
+        int bit = num % 2;        
+        binary = binary + bit * place;
+        place *= 10;              
+        num /= 2;                 
     }
 
     printf("Binary of %d = %d\n", n, binary);
